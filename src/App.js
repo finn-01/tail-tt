@@ -1,12 +1,8 @@
 import "./App.css";
+import Example from "./Example";
 
 function App() {
-	return (
-		<h1 className="text-3xl font-bold underline">
-			Hello world!
-			<div>Hello</div>
-		</h1>
-	);
+	return <Example />;
 }
 
 export default App;
